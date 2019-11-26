@@ -1,0 +1,54 @@
+{
+	"name": "wordpress/wordpress",
+	"license": "GPL-2.0-or-later",
+	"description": "WordPress is open source software you can use to create a beautiful website, blog, or app.",
+	"homepage": "https://wordpress.org",
+	"keywords": [
+		"blog",
+		"cms",
+		"wordpress",
+		"wp"
+	],
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://wpackagist.org"
+		}
+	],
+	"support": {
+		"issues": "https://core.trac.wordpress.org/"
+	},
+	"require": {
+		"php": ">=7.2",
+		"wpackagist-plugin/wordpress-seo": "^12.6",
+		"wpackagist-plugin/glue-for-yoast-seo-amp": "^0.5",
+		"wpackagist-plugin/query-monitor": "^3.4.0",
+		"belvedere/hbelv": "dev-master",
+		"marrano92/hbelv-theme": "dev-master"
+	},
+	"require-dev": {
+		"dealerdirect/phpcodesniffer-composer-installer": "~0.5.0",
+		"wp-coding-standards/wpcs": "~2.1.0",
+		"phpcompatibility/phpcompatibility-wp": "^2.1.0"
+	},
+	"extra": {
+		"installer-paths": {
+			"src/wp-content/mu-plugins/{$name}/": [
+				"type:wordpress-muplugin"
+			],
+			"src/wp-content/plugins/{$name}/": [
+				"type:wordpress-plugin"
+			],
+			"src/wp-content/themes/{$name}/": [
+				"type:wordpress-theme"
+			]
+		},
+		"wordpress-install-dir": "src/wp-content"
+	},
+	"scripts": {
+		"compat": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs --standard=phpcompat.xml.dist --report=summary,source",
+		"format": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcbf --report=summary,source",
+		"lint": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs --report=summary,source",
+		"lint:errors": "@lint -n"
+	}
+}

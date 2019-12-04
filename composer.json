@@ -23,6 +23,7 @@
 		"wpackagist-plugin/wordpress-seo": "^12.6",
 		"wpackagist-plugin/glue-for-yoast-seo-amp": "^0.5",
 		"wpackagist-plugin/query-monitor": "^3.4.0",
+		"wpackagist-plugin/classic-editor":"1.5",
 		"belvedere/hbelv": "dev-master",
 		"marrano92/hbelv-theme": "dev-master"
 	},

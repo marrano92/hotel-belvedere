@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "df4076630b87ed9e068e64f243ed36e0",
+    "content-hash": "ad6202e0a93be10d529b0667880c515d",
     "packages": [
         {
             "name": "belvedere/hbelv",
@@ -254,12 +254,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/marrano92/hotelilbelvedere.git",
-                "reference": "e083bedf47252810c9a62a6132b3fd811607cf7e"
+                "reference": "22e3226883f35233a2c9050aa777ba046d2b9ff2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/marrano92/hotelilbelvedere/zipball/e083bedf47252810c9a62a6132b3fd811607cf7e",
-                "reference": "e083bedf47252810c9a62a6132b3fd811607cf7e",
+                "url": "https://api.github.com/repos/marrano92/hotelilbelvedere/zipball/22e3226883f35233a2c9050aa777ba046d2b9ff2",
+                "reference": "22e3226883f35233a2c9050aa777ba046d2b9ff2",
                 "shasum": ""
             },
             "require": {
@@ -282,7 +282,7 @@
                 "theme",
                 "wordpress"
             ],
-            "time": "2019-11-26T15:45:12+00:00"
+            "time": "2019-11-26T15:51:03+00:00"
         },
         {
             "name": "psr/log",
@@ -332,6 +332,26 @@
             "time": "2019-11-01T11:05:21+00:00"
         },
         {
+            "name": "wpackagist-plugin/classic-editor",
+            "version": "1.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/classic-editor/",
+                "reference": "tags/1.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/classic-editor.1.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/classic-editor/"
+        },
+        {
             "name": "wpackagist-plugin/glue-for-yoast-seo-amp",
             "version": "0.5",
             "source": {
@@ -353,15 +373,15 @@
         },
         {
             "name": "wpackagist-plugin/query-monitor",
-            "version": "3.4.0",
+            "version": "3.5.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/query-monitor/",
-                "reference": "tags/3.4.0"
+                "reference": "tags/3.5.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.4.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.5.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -373,15 +393,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "12.6",
+            "version": "12.6.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/12.6"
+                "reference": "tags/12.6.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.12.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.12.6.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -621,16 +641,16 @@
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.5.2",
+            "version": "3.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "65b12cdeaaa6cd276d4c3033a95b9b88b12701e7"
+                "reference": "557a1fc7ac702c66b0bbfe16ab3d55839ef724cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/65b12cdeaaa6cd276d4c3033a95b9b88b12701e7",
-                "reference": "65b12cdeaaa6cd276d4c3033a95b9b88b12701e7",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/557a1fc7ac702c66b0bbfe16ab3d55839ef724cb",
+                "reference": "557a1fc7ac702c66b0bbfe16ab3d55839ef724cb",
                 "shasum": ""
             },
             "require": {
@@ -668,7 +688,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2019-10-28T04:36:32+00:00"
+            "time": "2019-12-04T04:46:47+00:00"
         },
         {
             "name": "wp-coding-standards/wpcs",

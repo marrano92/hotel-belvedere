@@ -13,10 +13,10 @@ WordPress is a PHP/MySQL-based project. We have a basic development environment 
 Running these commands will start the development environment:
 
 ```
-npm install
-npm run build:dev
-npm run env:start
-npm run env:install
+npm install &&
+npm run build:dev &&
+npm run env:start &&
+npm run env:install 
 ```
 
 Additionally, `npm run env:stop` will stop the environment.

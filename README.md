@@ -25,6 +25,14 @@ Additionally, `npm run env:stop` will stop the environment.
 
 `npm run test:php` and `npm run test:e2e` run the PHP and E2E test suites, respectively.
 
+### To Configure Xdebug
+
+To configure xdebug you need to install xdebug inside docker container and setting the default ports 9000, after you need to specify the remote host on php.ini (this ip should be the IP of phpstorm or the IP of the pc where there is the IDE).
+
+After setup the setting on phpstorm with port 9000, and setting server for docker with path inside server.
+
+The first time try to activate and deactivate the debuggin to approved the connection.
+
 ### After Build 
 
 Go to

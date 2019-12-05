@@ -13,11 +13,6 @@ services:
 
     ports:
       - ${LOCAL_PORT-8889}:80
-      - 9000:9000
-
-    expose:
-        - 9000
-        - 10000
 
     environment:
       LOCAL_DIR: ${LOCAL_DIR-src}
@@ -49,7 +44,7 @@ services:
 
     volumes:
       - ./tools/local-env/php-config.ini:/usr/local/etc/php/conf.d/php-config.ini
-      - ./tools/local-env/xdebug.ini:/usr/local/etc/php/xdebug.ini
+      - ./tools/local-env/xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
       - ./:/var/www
 
     depends_on:

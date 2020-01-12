@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "ad6202e0a93be10d529b0667880c515d",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/marrano92/hbelv.git",
-                "reference": "476160fb1c02ddc5c7b5ff0eb925e1d5482098bc"
+                "reference": "8ae4096783d158fdf23593a40a0109ecf9d07ebb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/marrano92/hbelv/zipball/476160fb1c02ddc5c7b5ff0eb925e1d5482098bc",
-                "reference": "476160fb1c02ddc5c7b5ff0eb925e1d5482098bc",
+                "url": "https://api.github.com/repos/marrano92/hbelv/zipball/8ae4096783d158fdf23593a40a0109ecf9d07ebb",
+                "reference": "8ae4096783d158fdf23593a40a0109ecf9d07ebb",
                 "shasum": ""
             },
             "require": {
@@ -38,7 +38,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2019-10-20T18:17:40+00:00"
+            "time": "2019-12-22T00:41:29+00:00"
         },
         {
             "name": "composer/installers",
@@ -254,12 +254,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/marrano92/hotelilbelvedere.git",
-                "reference": "22e3226883f35233a2c9050aa777ba046d2b9ff2"
+                "reference": "21eab12e954027bc08a7ddd1debeb7a449b684ba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/marrano92/hotelilbelvedere/zipball/22e3226883f35233a2c9050aa777ba046d2b9ff2",
-                "reference": "22e3226883f35233a2c9050aa777ba046d2b9ff2",
+                "url": "https://api.github.com/repos/marrano92/hotelilbelvedere/zipball/21eab12e954027bc08a7ddd1debeb7a449b684ba",
+                "reference": "21eab12e954027bc08a7ddd1debeb7a449b684ba",
                 "shasum": ""
             },
             "require": {
@@ -282,7 +282,7 @@
                 "theme",
                 "wordpress"
             ],
-            "time": "2019-11-26T15:51:03+00:00"
+            "time": "2020-01-02T23:18:23+00:00"
         },
         {
             "name": "psr/log",
@@ -341,9 +341,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/classic-editor.1.5.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/classic-editor.1.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -361,9 +359,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/glue-for-yoast-seo-amp.0.5.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/glue-for-yoast-seo-amp.0.5.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -381,9 +377,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.5.2.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/query-monitor.3.5.2.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -393,17 +387,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "12.6.2",
+            "version": "12.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/12.6.2"
+                "reference": "tags/12.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.12.6.2.zip",
-                "reference": null,
-                "shasum": null
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.12.8.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -481,16 +473,16 @@
         },
         {
             "name": "phpcompatibility/php-compatibility",
-            "version": "9.3.4",
+            "version": "9.3.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPCompatibility/PHPCompatibility.git",
-                "reference": "1f37659196e4f3113ea506a7efba201c52303bf1"
+                "reference": "9fb324479acf6f39452e0655d2429cc0d3914243"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPCompatibility/PHPCompatibility/zipball/1f37659196e4f3113ea506a7efba201c52303bf1",
-                "reference": "1f37659196e4f3113ea506a7efba201c52303bf1",
+                "url": "https://api.github.com/repos/PHPCompatibility/PHPCompatibility/zipball/9fb324479acf6f39452e0655d2429cc0d3914243",
+                "reference": "9fb324479acf6f39452e0655d2429cc0d3914243",
                 "shasum": ""
             },
             "require": {
@@ -535,7 +527,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2019-11-15T04:12:02+00:00"
+            "time": "2019-12-27T09:44:58+00:00"
         },
         {
             "name": "phpcompatibility/phpcompatibility-paragonie",

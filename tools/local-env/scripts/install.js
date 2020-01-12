@@ -43,3 +43,5 @@ wait_on( { resources: [ `tcp:localhost:${process.env.LOCAL_PORT}`] } )
 function wp_cli( cmd ) {
 	execSync( `docker-compose run --rm cli ${cmd}`, { stdio: 'inherit' } );
 }
+
+execSync( `composer install` );

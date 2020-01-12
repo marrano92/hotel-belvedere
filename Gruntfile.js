@@ -22,11 +22,8 @@ module.exports = function(grunt) {
 			'wp-admin/**', // Include everything in wp-admin.
 			'wp-content/index.php',
 			'wp-content/themes/index.php',
-			'wp-content/themes/twenty*/**',
-			'wp-content/plugins/index.php',
-			'wp-content/plugins/hello.php',
-			'wp-content/plugins/akismet/**',
-			'!wp-content/themes/twenty*/node_modules/**'
+			'wp-content/themes/**',
+			'wp-content/plugins/**',
 		],
 		changedFiles = {
 			php: []
